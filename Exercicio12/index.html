@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-ibr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../Exercicio12/icone/favicon.ico" type="image/x-icon">
+    <title>Editando videos</title>
+    <style>
+        body {
+            background-color: bisque;
+            font: normal 16pt arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>inserindo vidos hospedados localmente</h1>
+    <p>esse video está hospedado no meu proprio servidor</p>
+    <video src="video/meu-video.mp4" width="400" height="500" controls poster="icone/favicon.ico"></video>
+    <video controls poster="icone/favicon.ico">
+        <source src="video/meu-video.mp4" type="video.mp4">
+    </video>
+    <h1>inserindo videos do youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/F5tSoaJ93ac" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h1>acrescentando videos via vimio</h1>
+    <iframe src="https://player.vimeo.com/video/264340025?h=13594e234c&byline=0" width="640" height="357" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

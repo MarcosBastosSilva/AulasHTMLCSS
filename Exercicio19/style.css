@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* EM HTML É ID = CSS É #
+ EM HTML É CLASS = EM CSS É 
+ ID= SOLO
+ CLASS= MULTIPLOS.*/
+body {
+    background-color: bisque;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+h1 {
+    color: rgb(240, 240, 13);
+}
+h1#principal {
+    color: black;
+    text-align: center;
+}
+h2 {
+    color: rgb(9, 214, 214);
+}
+
+.basico {
+    color: blueviolet;
+}
+.intermediario {
+    color: aqua;
+}
+.avançado {
+    color: blue;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>agrupamento de caixas</title>
+    <style>
+         body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: bisque;
+            margin: 0px
+         }
+         header {
+            text-align: center;
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            margin:10px;
+            box-shadow: -1px 3px 10px 2px black;
+         }
+         main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 2px;
+         }
+         article {
+            text-align: center;
+            background-color: beige;
+            
+         }
+         footer {
+            background-color: black;
+            text-align: center;
+            color: white;
+            padding: 1px;
+            margin: 9px;
+         }
+         
+         footer > p {
+            margin:0px;
+         }
+         nav {
+            background-color: beige;
+            padding: 3px;
+            box-shadow: -1px 3px 10px 2px black;
+           
+         }
+         nav > a {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            margin-right: 50px;
+         }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white; 
+            border-radius: 50%;           
+        }
+    </style>
+</head>
+<body>
+    <header> 
+        <h1>meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+
+        </nav>
+    </header>
+    <main>
+        <section id="Noticias">
+            <article>
+                <h2>Tabaco bem massa </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem dolores earum quisquam neque eligendi est necessitatibus deserunt, illum dolore, nostrum delectus. Alias quasi perspiciatis, temporibus magnam nesciunt totam eos. Blanditiis.</p>
+                <aside> <!--Conteudo periferico ao artigo exemplo nome do autor-->
+                    <p>artigo escrito por josé da silva </p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        Desenvolvido por quinho's corporation 
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

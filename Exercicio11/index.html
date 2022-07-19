@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon/favicon.ico" type="image/x-icon">
+    <title>midias html5</title>
+    <style>
+        body {
+            background-color: bisque;
+            font: normal 16pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>aaaaa2</p>
+    <picture>
+        <source media="(max-width:750px)" srcset="imagem/fotop.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="imagem/fotom.png" type="image/png">
+        <img src="imagem/fotog.png" alt="imagem flexivel" srcset="">
+    </picture>
+    <h1>reproduzindo audio</h1>
+    <p>aprendendo a reproduzir no html</p>
+    <audio src="midia/hatjezz.mp3" controls autoplay></audio> <!--da pra colocar coamando loop pra ficar tocando a musica-->
+    <audio src="midia/hatjezz.mp3"></audio>
+    
+</body>
+</html>
